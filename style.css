@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(176, 232, 241);
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 3px;
+    color: rgb(126, 213, 226);
+    background-color: rgb(126, 213, 226);
+    box-shadow: 5px 5px 15px cornflowerblue;
+}
+
+h1 {
+    font-size: 2vw;
+    font-weight: 500;
+    margin-bottom: 1.5vw;
+}
+
+h2 {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.container {
+    padding: 3.5vw 20vw;
+}
+
+
+.photo {
+    height: 22vw;
+    width: 22vw;
+    background-image: url(./assets/liliya.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15%;
+    box-shadow: 5px 5px 10px cornflowerblue;
+}
+
+.contacts-icon {
+    width: 3.5vw;
+    height: 3.5vw;
+    margin-right: 2.5vw;
+    transition: all .5s;
+    border-radius: 50%;
+    border: 1px dotted #6495ed;
+}
+
+.contacts-icon:hover {
+    cursor: pointer;
+    scale: 1.1;
+    filter: drop-shadow(10px 5px 10px #6495ed);
+}
+
+.container,
+.titles-and-contents {
+    display: flex;
+    gap: 5vw;
+}
+
+.info {
+    position: relative;
+}
+
+.info,
+.titles,
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.logo-and-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+
+.logo {
+    width: 3vw;
+}
+
+.title {
+    font-weight: 300;
+}
+
+.line {
+    margin: 0 auto;
+    width: 90%;
+    background-color: #77a1f0;
+    height: 1px;
+}
+
+footer {
+    margin-bottom: -10px;
+    color: cornflowerblue;
+    background-color: cornflowerblue;
+    box-shadow: 8px 12px 21px 6px rgb(28, 7, 29);
+}
